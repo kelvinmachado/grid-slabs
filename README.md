@@ -27,83 +27,38 @@ O estudo aborda a análise de pavimentos em concreto armado utilizando diferente
 | Tabelas de Pinheiro (2007)     | Referência clássica para lajes      |
 
 ## 📁 Estrutura do Repositório
-.
-├── APDL/ # Arquivos de entrada ANSYS APDL
-│ ├── 1_grelha_M1_BEAM4_D.txt # Modelo 1 - BEAM4 (flecha)
-│ ├── 1_grelha_M1_BEAM4_M.txt # Modelo 1 - BEAM4 (momento)
-│ ├── 1_grelha_M1_BEAM4.txt # Modelo 1 - BEAM4 (sem calibração)
-│ ├── 2_grelha_M2_BEAM4_D.txt # Modelo 2 - BEAM4 (flecha)
-│ ├── 2_grelha_M2_BEAM4_M.txt # Modelo 2 - BEAM4 (momento)
-│ ├── 2_grelha_M2_BEAM4.txt # Modelo 2 - BEAM4 (sem calibração)
-│ ├── 3_grelha_M1_BEAM188-D.txt # Modelo 1 - BEAM188 (flecha)
-│ ├── 3_grelha_M1_BEAM188-M.txt # Modelo 1 - BEAM188 (momento)
-│ ├── 3_grelha_M1_BEAM188.txt # Modelo 1 - BEAM188 (sem calibração)
-│ ├── 4_grelha_M2_BEAM188-D.txt # Modelo 2 - BEAM188 (flecha)
-│ ├── 4_grelha_M2_BEAM188-M.txt # Modelo 2 - BEAM188 (momento)
-│ ├── 4_grelha_M2_BEAM188.txt # Modelo 2 - BEAM188 (sem calibração)
-│ ├── 5_grelha_M2_2_BEAM188_ASEC.txt # Modelo 2-2 - BEAM188 (seção arbitrária)
-│ ├── 5_grelha_M2_2_BEAM188_REC.txt # Modelo 2-2 - BEAM188 (seção retangular)
-│ ├── 5_grelha_M2_2_BEAM4_D.txt # Modelo 2-2 - BEAM4 (flecha)
-│ ├── 5_grelha_M2_2_BEAM4_M.txt # Modelo 2-2 - BEAM4 (momento)
-│ ├── 5_grelha_M2_2_BEAM4.txt # Modelo 2-2 - BEAM4 (sem calibração)
-│ └── RESULTS/ # Resultados das simulações ANSYS
-│ ├── MODELO 1 - BEAM188/
-│ ├── MODELO 1 - BEAM4/
-│ ├── MODELO 2-2 - BEAM188/
-│ ├── MODELO 2-2 - BEAM4/
-│ ├── MODELO 2-2 BEAM4 - D/
-│ ├── MODELO 2-2 BEAM4-M/
-│ ├── MODELO 2 - BEAM188/
-│ └── MODELO 2 - BEAM4/
-│
-├── EXCEL/ # Planilhas com dados e cálculos
-│ ├── MODELO01.xlsx
-│ ├── MODELO02-02.xlsx
-│ └── MODELO02.xlsx
-│
-├── GRELHA_MOLAS/ # Arquivos do software Grelha_Molas
-│ ├── MODELO1/ # Modelo 1 (sem calibração)
-│ ├── MODELO1_D/ # Modelo 1 calibrado por flecha
-│ ├── MODELO1_M/ # Modelo 1 calibrado por momento
-│ ├── MODELO2_1/ # Modelo 2 (sem calibração)
-│ ├── MODELO2_1_D/ # Modelo 2 calibrado por flecha
-│ ├── MODELO2_1_M/ # Modelo 2 calibrado por momento
-│ ├── MODELO2_2/ # Modelo 2 com viga (sem calibração)
-│ ├── MODELO2_2_D/ # Modelo 2 com viga calibrado por flecha
-│ └── MODELO2_2_M/ # Modelo 2 com viga calibrado por momento
-│
-├── MASTAN2/ # Arquivos do software Mastan2
-│ ├── grelha_M1_D.mat
-│ ├── grelha_M1.mat
-│ ├── grelha_M1_M.mat
-│ ├── grelhaM2_2_D.mat
-│ ├── grelhaM2_2.mat
-│ ├── grelhaM2_2_M.mat
-│ ├── grelha_M2_D.mat
-│ ├── grelha_M2.mat
-│ ├── grelha_M2_M.mat
-│ └── results/ # Resultados das análises Mastan2
-│ ├── results_M1_D.txt
-│ ├── results_M1_M.txt
-│ ├── results_M1.txt
-│ ├── results_M2_2_D.txt
-│ ├── results_M2_2_M.txt
-│ ├── results_M2_2.txt
-│ └── results_M2.txt
-│
-├── Salome/ # Arquivos do software Salome
-│ ├── barras.txt
-│ ├── grelha-m1_Files/
-│ ├── grelha-m1.hdf
-│ ├── import.py
-│ ├── mesh.med
-│ └── nodes.txt
-│
-├── NOMENCLATURA.txt # Convenções de nomenclatura utilizadas
-├── TRABALHO_01_ECC840_2025_01-REV02.pdf # Relatório completo do trabalho
-├── README.md # Este arquivo
-└── .gitignore # Arquivos e pastas ignorados pelo Git
 
+```text
+.
+├── APDL/
+│   ├── 1_grelha_M1_BEAM4_D.txt
+│   ├── 1_grelha_M1_BEAM4_M.txt
+│   ├── ...
+│   └── RESULTS/
+│       ├── MODELO 1 - BEAM188/
+│       └── MODELO 2 - BEAM4/
+│
+├── EXCEL/
+│   ├── MODELO01.xlsx
+│   └── MODELO02.xlsx
+│
+├── GRELHA_MOLAS/
+│   ├── MODELO1/
+│   └── MODELO2_2_M/
+│
+├── MASTAN2/
+│   ├── grelha_M1.mat
+│   └── results/
+│
+├── Salome/
+│   ├── barras.txt
+│   └── import.py
+│
+├── NOMENCLATURA.txt
+├── TRABALHO_01_ECC840_2025_01-REV02.pdf
+├── README.md
+└── .gitignore
+```
 
 ## 📊 Resumo dos Resultados
 
