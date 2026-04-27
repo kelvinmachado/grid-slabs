@@ -1,0 +1,27 @@
+
+ PRINT U    NODAL SOLUTION PER NODE
+ 
+  ***** POST1 NODAL DEGREE OF FREEDOM LISTING *****                            
+ 
+  LOAD STEP=     1  SUBSTEP=     1                                             
+   TIME=    1.0000      LOAD CASE=   0                                         
+ 
+  THE FOLLOWING DEGREE OF FREEDOM RESULTS ARE IN THE GLOBAL COORDINATE SYSTEM  
+ 
+    NODE       UY    
+      11 -0.20296     
+      32 -0.23198     
+      53 -0.26161     
+      74 -0.28649     
+      95 -0.30288     
+     116 -0.30858     
+     137 -0.30288     
+     158 -0.28649     
+     179 -0.26161     
+     200 -0.23198     
+     221 -0.20296     
+
+ MAXIMUM ABSOLUTE VALUES
+ NODE         116
+ VALUE  -0.30858     
+

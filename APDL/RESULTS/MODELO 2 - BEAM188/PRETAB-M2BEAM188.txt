@@ -1,0 +1,26 @@
+
+ PRINT ELEMENT TABLE ITEMS PER ELEMENT
+ 
+  ***** POST1 ELEMENT TABLE LISTING *****                                      
+ 
+    STAT     CURRENT      CURRENT 
+    ELEM     MMOMZI       MMOMZJ  
+     321  -15.833       92.821     
+     322   77.915       159.96     
+     323   147.32       205.06     
+     324   195.89       230.21     
+     325   225.39       236.77     
+     326   236.77       225.39     
+     327   230.21       195.89     
+     328   205.06       147.32     
+     329   159.96       77.915     
+     330   92.821      -15.833     
+
+ MINIMUM VALUES
+ ELEM         321           330
+ VALUE   -15.833      -15.833     
+
+ MAXIMUM VALUES
+ ELEM         326           325
+ VALUE    236.77       236.77     
+

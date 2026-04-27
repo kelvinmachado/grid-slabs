@@ -1,0 +1,42 @@
+{
+  "history": {
+    "cases": [
+      {
+        "name": "CurrentCase",
+        "stages": [
+          1
+        ],
+        "jobInfos": {
+          "mode": "Batch",
+          "server": "localhost",
+          "memory": 2048,
+          "time": "00:15:00",
+          "mpicpu": 1,
+          "nodes": 1,
+          "execmode": "Use optimized version"
+        }
+      }
+    ],
+    "stages": [
+      {
+        "name": "Stage_1",
+        "text": "mesh = LIRE_MAILLAGE(FORMAT='MED', UNITE=20)\r\n\r\nmesh0 = LIRE_MAILLAGE(FORMAT='MED', UNITE=20)",
+        "files": [
+          {
+            "handle": 20,
+            "filename": "C:\\Users\\kelvi\\OneDrive\\Documentos\\1PERSONAL\\4MESTRADO\\UFSM\\3SUBJECTS\\An\u00e1lise estrutural I\\TRABALHO - GRELHA\\Salome\\mesh.med",
+            "attr": 1
+          }
+        ],
+        "result": {
+          "resstate": 1
+        },
+        "uid": 1
+      }
+    ],
+    "aster": "stable",
+    "versionMajor": 16,
+    "versionMinor": 4
+  },
+  "minor": 10
+}

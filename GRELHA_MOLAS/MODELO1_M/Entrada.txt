@@ -1,0 +1,9 @@
+ARQUIVO DE DADOS
+grelhainput_M1_M.txt
+ARQUIVO DE COMBINACOES
+grelhacomb.txt
+ARQUIVO DE RESULTADOS
+grelhaoutput_M1_M.txt
+
+
+

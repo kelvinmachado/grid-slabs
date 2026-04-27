@@ -1,0 +1,12 @@
+# Pastas inteiras
+/APOIO/
+/T1_Grelhas_Alencar_Kelvin_Pedro G_Pedro H_2025/
+/T1_Grelhas_Alencar_Kelvin_Pedro G_Pedro H_REV02_2025/
+
+# Arquivos específicos
+NOTA.txt
+
+# Extensões
+*.zip
+*.exe
+*.docx
